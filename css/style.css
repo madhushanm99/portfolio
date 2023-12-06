@@ -195,7 +195,7 @@ header.shadow {
 }
 
 .link {
-  color: #fff
+  color: var(--text-color)
 }
 
 .about-text p {
@@ -223,14 +223,18 @@ header.shadow {
   margin-left: 1rem;
 }
 
-/* .skill{
-  background-color: rgba(41, 196, 255, 0.13);
-} */
+.skills,
+.contact,
+.about {
+  background-color: #081b2991;
+
+}
+
 .skil-row {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  
+
 }
 
 .skills-col {
@@ -247,7 +251,9 @@ header.shadow {
 
 .bars-box {
   margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
+  padding: 15px;
 }
 
 
@@ -361,12 +367,15 @@ form textarea {
   background: var(--hover);
 }
 
+
+
 .footer {
   display: grid;
   place-items: center;
   padding: 7px;
   background: #ebebeb;
   color: #000;
+  color: rg;
 }
 
 .footer h2 {
