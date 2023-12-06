@@ -145,10 +145,12 @@ header.shadow {
 }
 
 .home-text h2 {
-  font-size: 1.1rem;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 2500;
+  color: (--main-color);
+  -webkit-text-stroke: 0.7px var(--main-color);
+  
 }
-
 .home-text p {
   font-size: var(--p-font);
   font-weight: 400;
